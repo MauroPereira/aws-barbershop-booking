@@ -1,2 +1,2 @@
 # aws-barbershop-booking
-Serverless appointment booking system for barbershops built on AWS
+Serverless appointment booking system for hair salons built on AWS
