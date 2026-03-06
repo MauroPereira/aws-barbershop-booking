@@ -1,0 +1,71 @@
+# ─── Sensitive / secrets ───────────────────────────────────────────────────
+.env
+.env.*
+env.json
+env.*.json
+secrets.json
+secrets.*.json
+config.local.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# AWS credentials / config (local overrides)
+.aws/
+aws-exports.js
+samconfig.toml.local
+
+# ─── AWS SAM / CloudFormation ───────────────────────────────────────────────
+.aws-sam/
+packaged.yaml
+packaged-*.yaml
+
+# ─── Serverless Framework ───────────────────────────────────────────────────
+.serverless/
+
+# ─── Terraform ──────────────────────────────────────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+override.tf
+override.tf.json
+
+# ─── Node.js ────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm
+.yarn/cache
+.pnp.*
+
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+dist/
+*.egg-info/
+
+# ─── Build / dist ───────────────────────────────────────────────────────────
+build/
+dist/
+out/
+*.zip
+*.tar.gz
+
+# ─── IDE / editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Logs ───────────────────────────────────────────────────────────────────
+logs/
+*.log
